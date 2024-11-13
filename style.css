@@ -1,0 +1,50 @@
+:root {
+    background-color: black;
+}
+ 
+.navBar {
+    background-color: rgb(0, 0, 0);
+    border: solid rgb(255, 0, 0) 7px;
+}
+ 
+.navBar a:hover {
+    color: rgb(255, 0, 0);
+    background-color: brown;
+    cursor: pointer;
+}
+ 
+.navBar ul {
+    list-style-image: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ 
+.navBar li {
+    float: left;
+}
+.navBar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    background-color: rgb(153, 85, 85);
+    font-size: 35px;
+    border: solid rgb(255, 0, 0) 2px;    
+}
+ 
+.Title {
+    color: white;
+    font-style: cursive;
+}
+ 
+.preview {
+    display: none;
+}
+ 
+
+   
+ 
+ 
